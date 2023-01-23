@@ -32,7 +32,8 @@ templates_path = ['_templates']
 html_static_path = ["_static"]
 html_logo = "_static/pylops.png"
 
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
+html_theme = "pydata_sphinx_theme"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
