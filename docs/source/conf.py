@@ -30,10 +30,17 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_static_path = ["_static"]
-html_logo = "pylops.png"
+# html_logo = "pylops.png"
 
 # html_theme = 'sphinx_rtd_theme'
 html_theme = "pydata_sphinx_theme"
+
+html_theme_options = {
+   "logo": {
+      "image_light": "pylops.png",
+      "image_dark": "pylops.png",
+   }
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
